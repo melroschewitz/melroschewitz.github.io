@@ -2,96 +2,102 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Mélanie Roschewitz
+    - name: Email
+      value: m.roschewitz21@imperial.ac.uk
     - name: Languages
-      value: English, German
+      value: English, French, German
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: PhD in Computing
+      institution: Imperial College London, Departement of Computing, UK
+      year:  Oct 2021 - Now
+      description:
+        - Under the supervision of Prof. Dr. Ben Glocker.
+        - Fully funded by an Imperial College President's Scholarship.
+        - My research focuses on reliability, robustness and safety of AI systems for medical imaging.
+    - title: ML Research Intern
+      institution: Kheiron Medical Technologies, London, UK
+      year: Apr.22 - Oct.22
+      description:
+        - Investigating domain generalisation and model robustness in breast screening applications.
+
+    - title: Applied Researcher (I & II)
+      institution: Microsoft Research Cambridge, Health Intelligence, UK
+      year: Apr.20 - Sep.21
+      description:
+        - Part of Project InnerEye
+        - Developing open-source machine learning models for medical image analysis and personalised treatment.
+
+    - title: AI Resident
+      institution: Microsoft Research Cambridge, All Data AI, UK
+      year: Sep.19 - Mar.20
+      description:
+        - "Part of the Enterprise Knowledge team: constructing a knowledge base from business data using unsupervised ML and probabilistic programming."
+
+    - title: Student Research Assistant
+      institution: ETH Zürich, Chair of Risk and Insurance Economics, CH
+      year: Feb.18-Aug.18
+
+    - title: Statistics Intern
+      institution: Statistics Canada, Ottawa, CA
+      year: Jun.17 - Aug.17
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.Sc. Data Science (distinction)
+      institution: ETH Zurich, CH
+      year: 2019
+      description:  
+        - "Original title: Master of Science ETH in Data Science, mit Auszeichnung. GPA: 5.8/6."
+        - "Courses include: Machine Learning, Big Data, Computational Statistics, Deep Learning, Computational Biology, Ultrasound Imaging, Experimental Design."
+    - title: Postgraduate diploma in Statistics (distinction)
+      institution: Université de Strasbourg, FR
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      - "Original degree title: Maîtrise en Statistique, mention très bien. Rank 1/14."
 
-- title: Experience
+    - title: B.Sc. Mathematics (distinction)
+      institution: Université de Strasbourg, FR
+      year: 2016
+      description:
+      - "Original degree title: Licence de Science, Technologies, Santé, Mention Mathématiques, mention très bien. Rank 1/85."
+
+- title: Teaching activities
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Teaching Assistant
+      institution: Imperial College London, UK
+      year: 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Machine Learning For Medical Imaging: guest lecturer, coursework design and marking (Spring 2024)"
+        - "Deep Learning & Machine Learning For Imaging: supervision of a weekly exercise session and marking of coursework (Spring 2023)"
+        - "Probability & Statistics: supervision of a weekly exercise session and marking of weekly assignments (Spring 2022)"
+        
+    - title: Teaching Assistant
+      institution: ETH Zürich, CH
+      year: Fall 2018
       description:
-        - Description 1.
-        - Description 2.
+        - "Big Data: supervision of a weekly 2-hour exercise session. Design of exercise sheets and solutions."
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Outreach & community activities
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Outreach
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Lecturer for the "GirlsWhoML workshops" (Fall 2022 and 2023), a series of lectures designed to introduce core principles of Machine Learning to women studying subjects not related to computer science, to enable them to leverage these tools in their own field.
+        - Research talk at Imperial College’s "girls-only computing taster day", tailored for high school students aged 14-18;  sharing my path to becoming a computer scientist as well as examples of AI applications in the healthcare domain.
+        - Assistant for the "Hello World Hack", day of introduction to coding for girls in primary schools (aged 6-9), helping them to solve coding and machine learning games. 
+    - title: Reviewing activities
       items:
-        - Description 1.
-        - Description 2.
+        - "Reviewed for various ML for health venues: Nature Medicine, MICCAI workshops, NeurIPS Deep Generative 4 Health workshop..."
 
-- title: Other Interests
-  type: list
+- title: Scholarships
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2021 - 2025
+      title: Imperial College President's PhD Scholarship
+      description: "Awarded to candidates with excellent academic performance and promising research potential."

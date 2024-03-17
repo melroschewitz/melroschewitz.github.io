@@ -1,6 +1,33 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"MICCAI":
+  url: http://www.miccai.org
+  color: "#0080FF"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"NatureComms":
+  url: https://www.nature.com/ncomms/
+  color: "#C10316"
+
+"NatureMed":
+  url: https://www.nature.com/nm/
+  color: "#C10316"
+
+"TMLR":
+  color: "#C10316"
+
+"IEEE-TUFCC":
+  color: "#C10316"
+
+"ICCVW":
+  color: "#0080FF"
+
+"Radiology AI":
+  color: "#C10316"
+
+"Ebiomedicine":
+  color: "#C10316"
+
+"ML4H":
+  url: http://ml4h.cc/
+  color: "#0080FF"
+
+"arXiv":
+  color: "#b509ac"

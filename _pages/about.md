@@ -1,26 +1,24 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD student @ Imperial College London - Safe Machine Learning for Medical Imaging.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: resized_cv.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+### About me
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm a 3rd year Computing PhD student in the [BiomedIA lab](https://biomedia.doc.ic.ac.uk/) at [Imperial College London](https://www.imperial.ac.uk/), supervised by [Prof. Ben Glocker](http://wp.doc.ic.ac.uk/bglocker/) and fully funded by an [Imperial College President's scholarship](https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-doctoral/grants-scholarships/presidents-phd/). My research interests cover various aspects of medical imaging machine learning, in particular reliability and safety of these systems. <br/>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+##### Background 
+I started my studies with a B.Sc. in Mathematics as well as a postgraduate diploma in Statistics from the University of Strasbourg (France). Later, I graduated from [ETH Zurich](https://ethz.ch/en.html) with a M.Sc. in Data Science, focusing on medical applications of machine learning. I then joined [Microsoft Research Cambridge](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/) (UK), where I was an Applied Research in the [InnerEye team](https://www.microsoft.com/en-us/research/project/medical-image-analysis/), focusing on developping ML models for personalized treatment as well as on open-source efforts in ML for healthcare. In October 2021, I then started my PhD at [Imperial](https://www.imperial.ac.uk/). I was also a intern in the ML research team of [Kheiron Medical Technologies](https://www.kheironmed.com/) from April to October 2022.

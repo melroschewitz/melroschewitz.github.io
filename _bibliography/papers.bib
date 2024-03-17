@@ -1,84 +1,183 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{roschewitz2024counterfactual,
+  title={Counterfactual contrastive learning: robust representations via causal image synthesis},
+  author={Roschewitz, Melanie and Ribeiro, Fabio De Sousa and Xia, Tian and Khara, Galvin and Glocker, Ben},
+  journal={arXiv preprint arXiv:2403.09605},
+  year={2024},
+  month={March}
+  abbr={arXiv},
+  html={https://arxiv.org/abs/2403.09605},
+  code={https://github.com/biomedia-mira/counterfactual-contrastive}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{roschewitz2023automatic,
+  abbr={NatureComms},
+  title={Automatic correction of performance drift under acquisition shift in medical image classification},
+  author={Roschewitz, M{\'e}lanie and Khara, Galvin and Yearsley, Joe and Sharma, Nisha and James, Jonathan J and Ambr{\'o}zay, {\'E}va and Heroux, Adam and Kecskemethy, Peter and Rijken, Tobias and Glocker, Ben},
+  journal={Nature Communications},
+  volume={14},
+  number={1},
+  pages={6608},
+  year={2023},
+  month={October},
+  publisher={Nature Publishing Group UK London},
+  html={https://www.nature.com/articles/s41467-023-42396-y},
+  selected=true,
+  code={https://github.com/biomedia-mira/upa},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
+}
+
+
+@inproceedings{roschewitz2023distance,
+  abbr={ICCVW},
+  title={Distance Matters For Improving Performance Estimation Under Covariate Shift},
+  author={Roschewitz, M{\'e}lanie and Glocker, Ben},
+  booktitle={2023 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)},
+  pages={4551--4561},
+  year={2023},
+  organization={IEEE},
+  pdf={https://openaccess.thecvf.com/content/ICCV2023W/UnCV/papers/Roschewitz_Distance_Matters_For_Improving_Performance_Estimation_Under_Covariate_Shift_ICCVW_2023_paper.pdf},
+  html={https://www.computer.org/csdl/proceedings-article/iccvw/2023/074400e551/1TanVJ8uBEc},
+  code={https://github.com/melanibe/distance_matters_performance_estimation},
+  bibtex_show={true},
+}
+
+@article{glocker2023algorithmic,
+  abbr={Ebiomedicine},
+  title={Algorithmic encoding of protected characteristics in chest X-ray disease detection models},
+  author={Glocker, Ben and Jones, Charles and Bernhardt, M{\'e}lanie and Winzeck, Stefan},
+  journal={Ebiomedicine},
+  volume={89},
+  year={2023},
+  publisher={Elsevier},
+  month={February},
+  html={https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(23)00032-4/fulltext},
+  bibtex_show={true},
+  code={https://github.com/biomedia-mira/chexploration}
+}
+
+@inproceedings{jones2023role,
+  abbr={MICCAI},
+  title={The role of subgroup separability in group-fair medical image classification},
+  author={Jones, Charles and Roschewitz, M{\'e}lanie and Glocker, Ben},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  pages={179--188},
+  year={2023},
+  organization={Springer},
+  html={https://link.springer.com/chapter/10.1007/978-3-031-43898-1_18},
+  bibtex_show={true},
+  code={https://github.com/biomedia-mira/subgroup-separability}
+}
+
+@inproceedings{rosnati2023robust,
+  abbr={ML4H},
+  title={Robust semi-supervised segmentation with timestep ensembling diffusion models},
+  author={Rosnati, Margherita and Roschewitz, M{\'e}lanie and Glocker, Ben},
+  booktitle={Machine Learning for Health (ML4H)},
+  pages={512--527},
+  year={2023},
+  organization={PMLR},
+  html={https://proceedings.mlr.press/v225/rosnati23a.html},
+  bibtex_show={true},
+}
+
+
+
+
+@article{bernhardt2022active,
+  abbr={NatureComms},
+  title={Active label cleaning for improved dataset quality under resource constraints},
+  author={Bernhardt, M{\'e}lanie and Castro, Daniel C and Tanno, Ryutaro and Schwaighofer, Anton and Tezcan, Kerem C and Monteiro, Miguel and Bannur, Shruthi and Lungren, Matthew P and Nori, Aditya and Glocker, Ben and others},
+  journal={Nature communications},
+  volume={13},
+  number={1},
+  pages={1161},
+  year={2022},
+  month={March},
+  publisher={Nature Publishing Group UK London},
+  bibtex_show={true},
+  html={https://www.nature.com/articles/s41467-022-28818-3},
+  selected=true,
+  code={https://github.com/microsoft/InnerEye-DeepLearning/tree/1606729c7a16e1bfeb269694314212b6e2737939/InnerEye-DataQuality},
+}
+
+@article{bernhardt2022potential,
+  abbr={NatureMed},
+  title={Potential sources of dataset bias complicate investigation of underdiagnosis by machine learning algorithms},
+  author={Bernhardt, M{\'e}lanie and Jones, Charles and Glocker, Ben},
+  journal={Nature Medicine},
+  volume={28},
   number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+  pages={1157--1158},
+  year={2022},
+  publisher={Nature Publishing Group US New York},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  html={https://www.nature.com/articles/s41591-022-01846-8},
+  selected=true
+}
+
+@article{bernhardt2020training,
+  abbr={IEEE-TUFCC},
+  title={Training variational networks with multidomain simulations: Speed-of-sound image reconstruction},
+  author={Bernhardt, Melanie and Vishnevskiy, Valery and Rau, Richard and Goksel, Orcun},
+  journal={IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control},
+  volume={67},
+  number={12},
+  pages={2584--2594},
+  year={2020},
+  publisher={IEEE},
+  bibtex_show={true},
+  html={https://ieeexplore.ieee.org/abstract/document/9144249}
+}
+
+
+
+
+@article{glocker2023risk,
+  abbr={Radiology AI},
+  title={Risk of bias in chest radiography deep learning foundation models},
+  author={Glocker, Ben and Jones, Charles and Roschewitz, M{\'e}lanie and Winzeck, Stefan},
+  journal={Radiology: Artificial Intelligence},
+  volume={5},
+  number={6},
+  pages={e230060},
+  month={September},
+  year={2023},
+  publisher={Radiological Society of North America},
+  bibtex_show={true},
+  html={https://pubs.rsna.org/doi/abs/10.1148/ryai.230060}
+}
+
+
+@article{bernhardt2022failure,
+  abbr={TMLR},
+  title={Failure Detection in Medical Image Classification: A Reality Check and Benchmarking Testbed},
+  author={Bernhardt, M{\'e}lanie and Ribeiro, Fabio De Sousa and Glocker, Ben},
+  journal={Transactions on Machine Learning Research},
+  year={2022},
+  html={https://openreview.net/pdf?id=VBHuLfnOMf},
+  selected=true,
+  bibtex_show={true},
+  code={https://github.com/melanibe/failure_detection_benchmark}
+}
+
+
+
+
+
+
+
+
+
+@inproceedings{bannur2021hierarchical,
+  abbr={arXiv},
+  title={Hierarchical analysis of visual COVID-19 features from chest radiographs},
+  author={Bannur, Shruthi and Oktay, Ozan and Bernhardt, Melanie and Schwaighofer, Anton and Jena, Rajesh and others},
+  howpublished ={ArXiv:2107.06618},
+  booktitle={Presented at ICML 2021 Workshop on Interpretable Machine Learning in Healthcare.},
+  year={2021},
+  eprint={https://arxiv.org/abs/2107.06618},
+  bibtex_show={true},
 }

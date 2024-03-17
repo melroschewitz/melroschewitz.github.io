@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - melanibe
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - biomedia-mira/counterfactual-contrastive
+  - melanibe/failure_detection_benchmark
+  - melanibe/distance_matters_performance_estimation
+  - biomedia-mira/upa
+
