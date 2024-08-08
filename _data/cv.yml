@@ -76,7 +76,11 @@
         - "Machine Learning For Medical Imaging: guest lecturer, coursework design and marking (Spring 2024)"
         - "Deep Learning & Machine Learning For Imaging: supervision of a weekly exercise session and marking of coursework (Spring 2023)"
         - "Probability & Statistics: supervision of a weekly exercise session and marking of weekly assignments (Spring 2022)"
-        
+    - title: Head of Teaching Content
+      institution: GirlsWhoML, UK   
+      year: Aug 2024 - Present
+      description:
+        - "In charge of teaching content for the 'GirlsWhoML workshops' a series of lectures taught across various universities in the UK, designed to introduce core principles of Machine Learning to women studying subjects not related to computer science, to enable them to leverage these tools in their own field. In charge of designing new courses (lectures + practical coding exercises) as well as updating existing ones."
     - title: Teaching Assistant
       institution: ETH Zürich, CH
       year: Fall 2018
@@ -88,12 +92,12 @@
   contents:
     - title: Outreach
       items:
-        - Lecturer for the "GirlsWhoML workshops" (Fall 2022 and 2023), a series of lectures designed to introduce core principles of Machine Learning to women studying subjects not related to computer science, to enable them to leverage these tools in their own field.
+        - Head of Content (since Aug 24) and lecturer (Fall 22 and 23) for the "GirlsWhoML workshops", a series of lectures designed to introduce core principles of Machine Learning to women studying subjects not related to computer science, to enable them to leverage these tools in their own field.
         - Research talk at Imperial College’s "girls-only computing taster day", tailored for high school students aged 14-18;  sharing my path to becoming a computer scientist as well as examples of AI applications in the healthcare domain.
-        - Assistant for the "Hello World Hack", day of introduction to coding for girls in primary schools (aged 6-9), helping them to solve coding and machine learning games. 
+        - Assistant for the "Hello World Hack" (June 23 and 24), day of introduction to coding for girls in primary schools (aged 6-9), helping them to solve coding and machine learning games. 
     - title: Reviewing activities
       items:
-        - "Reviewed for various ML for health venues: Nature Medicine, MICCAI workshops, NeurIPS Deep Generative 4 Health workshop..."
+        - "Reviewed for various ML for health venues: Nature Medicine, NeurIPS, MICCAI workshops, NeurIPS workshops..."
 
 - title: Scholarships
   type: time_table
@@ -102,5 +106,5 @@
       title: Imperial College President's PhD Scholarship
       description: "Awarded to candidates with excellent academic performance and promising research potential."
     - year: 2024
-      title: Margaret and Martin Gotheridge Award from the British Federation of Women Graduate
+      title: Margaret and Martin Gotheridge Award (British Federation of Women Graduate)
       description: "BFWG academic awards are awarded to female doctoral students for “outstanding academic achievements and ability to communicate complex research to a non-specialist audience."
