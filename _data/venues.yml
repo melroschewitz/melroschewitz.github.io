@@ -2,6 +2,9 @@
   url: http://www.miccai.org
   color: "#0080FF"
 
+"DEMI@MICCAI":
+  color: "#0080FF"
+  
 "NatureComms":
   url: https://www.nature.com/ncomms/
   color: "#C10316"
