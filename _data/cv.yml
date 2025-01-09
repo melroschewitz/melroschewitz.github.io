@@ -16,7 +16,7 @@
       year:  Oct 2021 - Now
       description:
         - Under the supervision of Prof. Dr. Ben Glocker.
-        - Fully funded by an Imperial College President's Scholarship.
+        - Fully funded by an Imperial College President's Scholarship and Google PhD Fellowship.
         - My research focuses on reliability, robustness and safety of AI systems for medical imaging.
     - title: ML Research Intern
       institution: Kheiron Medical Technologies, London, UK
@@ -102,7 +102,10 @@
 - title: Scholarships
   type: time_table
   contents:
-    - year: 2021 - 2025
+    - year: 2024 - Now
+      title: Google PhD Fellowship in Health & Bioscience
+      description: "Recognizes outstanding graduate students doing exceptional and innovative research in areas relevant to computer science and related fields"
+    - year: 2021 - Now
       title: Imperial College President's PhD Scholarship
       description: "Awarded to candidates with excellent academic performance and promising research potential."
     - year: 2024
