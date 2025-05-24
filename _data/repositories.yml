@@ -4,6 +4,8 @@ github_users:
 github_repos:
   - biomedia-mira/counterfactual-contrastive
   - melanibe/failure_detection_benchmark
+  - biomedia-mira/shift_identification
   - melanibe/distance_matters_performance_estimation
   - biomedia-mira/upa
+  - biomedia-mira/mammo-artifacts
 
