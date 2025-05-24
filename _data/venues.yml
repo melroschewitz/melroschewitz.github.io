@@ -1,3 +1,10 @@
+"ICLR":
+  url: https://iclr.cc
+  color: "#0080FF"
+
+"ISBI":
+  color: "#0080FF"
+
 "MICCAI":
   url: http://www.miccai.org
   color: "#0080FF"
