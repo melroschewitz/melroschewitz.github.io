@@ -11,9 +11,13 @@
 - title: Research Experience
   type: time_table
   contents:
+    - title: ETH AI Center Postdoctoral Fellow
+      institution: ETH Zurich, ETH AI Center, Switzerland
+      year: Sept 2025 - Present
+      description: Safe AI for health. Working with Profs Julia Vogt and Michael Moor.
     - title: PhD in Computing
       institution: Imperial College London, Departement of Computing, UK
-      year:  Oct 2021 - Now
+      year:  Oct 2021 - July 2025
       description:
         - Under the supervision of Prof. Dr. Ben Glocker.
         - Fully funded by an Imperial College President's Scholarship and Google PhD Fellowship.
